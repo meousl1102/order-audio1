@@ -6,13 +6,13 @@ sudo apt-get update
 
 sudo apt-get install libsdl2-dev libsdl2-mixer-dev
 
-Bước 2 : Xoá 2 thư mục devel và build khi git clone về
+Bước 2 : 
 
 catkin_make
 
 source devel/setup.bash
 
-Bước 4 : khởi chạy code
+Bước 3 : khởi chạy code
 
 rosrun my_music_player music_player_node 001.mp3 128 -1
 
